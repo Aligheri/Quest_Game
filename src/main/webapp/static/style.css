@@ -36,7 +36,6 @@ body {
     animation: none;
 }
 
-
 .centered-text {
     text-align: center;
     position: absolute;
@@ -56,6 +55,7 @@ footer {
     width: 100%;
     padding: 10px 0;
 }
+
 footer {
     text-align: center;
     position: absolute;

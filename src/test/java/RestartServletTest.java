@@ -35,7 +35,7 @@ public class RestartServletTest {
     }
 
     @Test
-    void testDoPost() throws Exception {
+    void shouldForwardToRestartPageWhenDoPostIsCalled() throws Exception {
         RestartServlet restartServlet = new RestartServlet();
 
         restartServlet.doPost(request, response);

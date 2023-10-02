@@ -25,7 +25,7 @@ public class StartServletTest {
 
 
     @Test
-    void testDoPost() throws Exception {
+    void shouldSetAttributesAndForwardToQuestionPageWhenDoPostIsCalled() throws Exception {
         MockitoAnnotations.initMocks(this);
         StartServlet startServlet = new StartServlet();
 
